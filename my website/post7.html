@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Introduction to HTML Forms</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Introduction to HTML Forms</h1>
+</header>
+
+<div class="container">
+
+<p>Forms are an essential part of websites. They allow users to submit information like name, email, messages, or orders. Learning HTML forms is critical for beginners in web development.</p>
+
+<h2>Basic Form Structure</h2>
+<p>A form starts with the &lt;form&gt; tag and contains input fields and a submit button:</p>
+
+<pre>
+&lt;form action="submit.html" method="post"&gt;
+  Name: &lt;input type="text" name="name"&gt;&lt;br&gt;
+  Email: &lt;input type="email" name="email"&gt;&lt;br&gt;
+  Message: &lt;textarea name="message"&gt;&lt;/textarea&gt;&lt;br&gt;
+  &lt;input type="submit" value="Send"&gt;
+&lt;/form&gt;
+</pre>
+
+<h2>Input Types</h2>
+<ul>
+<li>text – single line input</li>
+<li>email – for email addresses</li>
+<li>password – for password fields</li>
+<li>checkbox – for multiple options</li>
+<li>radio – select one option</li>
+<li>submit – send form data</li>
+</ul>
+
+<h2>Styling Forms with CSS</h2>
+<p>Use CSS to make forms attractive:</p>
+<pre>
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+}
+</pre>
+
+<h2>Conclusion</h2>
+<p>Forms are a key part of interactive websites. Mastering HTML forms along with CSS styling improves your projects and prepares you for backend integration later.</p>
+
+</div>
+
+<footer>
+<p>© 2026 Yasir Web Developer</p>
+</footer>
+
+</body>
+</html>

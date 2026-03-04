@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Make a Responsive Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>How to Make a Responsive Website</h1>
+</header>
+
+<div class="container">
+
+<p>A responsive website adapts to different screen sizes such as mobiles, tablets, and desktops. This ensures users have a good experience on any device.</p>
+
+<h2>Why Responsive Design?</h2>
+<p>Most people access websites on mobile devices. Google also prioritizes mobile-friendly websites in search results. A responsive website increases traffic and AdSense approval chances.</p>
+
+<h2>Using Meta Tag</h2>
+<p>Add the viewport meta tag in the head section:</p>
+<pre>
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+</pre>
+
+<h2>Using Flexible Layouts</h2>
+<p>Instead of fixed widths (like 1000px), use percentages:</p>
+<pre>
+.container {
+  width: 90%;
+  margin: auto;
+}
+</pre>
+
+<h2>Media Queries</h2>
+<p>Change styles for different screen sizes:</p>
+<pre>
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+</pre>
+
+<h2>Images & Videos</h2>
+<p>Make media responsive:</p>
+<pre>
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+</pre>
+
+<p>With practice, you can create websites that look perfect on any device and are ready for professional use and AdSense approval.</p>
+
+</div>
+
+<footer>
+<p>© 2026 Yasir Web Developer</p>
+</footer>
+
+</body>
+</html>
